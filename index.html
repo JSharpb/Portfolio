@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jordan Birdsong</title>
+    <meta name="description" content="The rapidly progressing web developer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Theme Toggle -->
+    <!-- <input class="on-page-load theme-button interactable" type="checkbox" checked />
+    <input class="switch theme-button interactable" type="checkbox" />
+    <div class="theme-button tab">
+      <div class="theme-icon">
+        <i class="icon fa fa-solid fa-arrows-rotate"></i>
+        <div class="icon sun"></div>
+        <div class="icon moon"></div>
+        <i class="icon fa fa-solid fa-arrows-rotate"></i>
+      </div>
+    </div> -->
+
+    <div class="scene-manager">
+
+      <div class="parallax">
+
+        <!-- Page -->
+        <div class="stack-container">
+
+          <input class="on-page-load theme-button interactable" type="checkbox" checked />
+          <input class="switch theme-button interactable" type="checkbox" />
+          
+          <div class="main">
+            <div class="windows"><div class="panes"></div></div>
+            <div class="content">
+              <section id="pseudo-top" class="wall heading">
+                <div class="lighting up"></div>
+                <h1><i>Hi!</i> My name is <i><span class="myname">Jordan Birdsong</span></i>, and<br /><span class="float-left">I'm an aspiring <i>web developer</i></span></h1>
+                <p class="whisper">And yes, a musician</p>
+              </section>
+              <!-- hero -->
+              <!-- <section class="hero opening"></section>  -->
+              <section class="wall projects transparent">
+                <div class="lighting down"></div>
+                <h1><i>Here</i> are a few of my early <i>projects</i>:</h1>
+                <div class="item-container item-1"><a class="item" href="https://tribute-to-debussy.pages.dev" target="_blank">A Tribute to Debussy</a></div>
+                <div class="item-container item-2"><a class="item" href="https://web-dev-notes.pages.dev" target="_blank">Technical Documentation Concept</a></div>
+                <div class="item-container item-3"><a class="item" href="https://jeannells-fine-arts.pages.dev" target="_blank">Store Page Concept</a></div>
+                <svg class="projects-backing custom-backing" viewbox="0 0 100 100" maskContentUnits="userSpaceOnUse" preserveAspectRatio="none">
+                  <defs>
+                    <mask id="cut-outs-projects" class="cut-outs" maskUnits="objectBoundingbox">
+                      <rect width="100%" height="100%" />
+                      <rect class="cut-out item-container item item-1" />
+                      <rect class="cut-out item-container item item-2" />
+                      <rect class="cut-out item-container item item-3" />
+                    </mask>
+                  </defs>
+                  <rect class="custom-backing-color" x="0" y="0" mask="url(#cut-outs-projects)" width="100%" height="100%" />
+                </svg>
+                <div class="lighting up"></div>
+              </section>
+              <section class="wall about">
+                <div class="lighting down"></div>
+                <h1><i>"I</i> have a <i>bachelor's</i><br /><span class="float-right">in <i>music performance"</i></span></h1>
+                <p>
+                  —an odd header for any developer's portfolio. For four years, I studied and rehearsed alongside my peers to develop talent, 
+                  discipline, stress resistance, and most importantly, the ability to teach and familiarize myself with new concepts. 
+                </p>
+                <p>
+                  It's with these skills that I'm able pursue a career in such a vastly different field whilst remaining competitive and diligent. 
+                  I look foward to each knew project as an opportunity to challenge myself and to deliver a thoughtfully designed experience to all who use it.
+                </p>
+                <div class="lighting up"></div>
+              </section>
+              <section class="wall contact transparent">
+                <div class="lighting down"></div>
+                <h1><i>Let's</i> see what <i>we</i> can <i>do</i></h1>
+                <div class="item-container item-2"><a class="item" href="#pseudo-top"><i class="fas fa-envelope"></i><span class="social">Email</span></a></div>
+                <div class="item-container item-5"><a class="item" href="#pseudo-top"><i class="fab fa-linkedin"></i><span class="social">LinkedIn</span></a></div>
+                <svg class="contact-backing custom-backing" viewbox="0 0 100 100" maskContentUnits="userSpaceOnUse" preserveAspectRatio="none">
+                  <defs>
+                    <mask id="cut-outs-contact" class="cut-outs" maskUnits="objectBoundingbox">
+                      <rect width="100%" height="100%" />
+                      <rect class="cut-out item-container item item-2" />
+                      <rect class="cut-out item-container item item-5" />
+                    </mask>
+                  </defs>
+                  <rect class="custom-backing-color" x="0" y="0" mask="url(#cut-outs-contact)" width="100%" height="100%" />
+                </svg>
+              </section>
+            </div> <!-- content -->
+            <div class="windows"><div class="panes"></div></div>
+          </div> <!-- main -->
+          
+          <svg class="backing-container" viewbox="0 0 2 2" preserveAspectRatio="none">
+            <rect class="backing"></rect>
+          </svg>
+
+          <div class="skybox">
+            
+            <!-- <div class="celestial-container">
+              <div class="celestial"></div>
+            </div> -->
+            
+            <svg class="test-1" viewbox="0 0 2 2">
+              <defs>
+                <radialGradient id="celestial-gradient">
+                  <stop offset="0" stop-opacity="1" />
+                  <stop class="moon-radius" offset="0.06" stop-opacity="1" />
+                  <stop class="moon-glow-radius" offset="0.08" />
+                  <stop class="sun-radius" offset="0.11" />
+                  <stop class="sun-glow-radius" offset="0.12" />
+                  <stop offset="100%" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+              
+              <circle class="test-2" fill="url(#celestial-gradient)"></circle>
+            </svg>
+
+            <div class="theme-button theme-icon-container">
+              <div class="theme-icon">
+                <i class="icon fa fa-solid fa-arrows-rotate"></i>
+                <div class="icon sun"></div>
+                <div class="icon moon"></div>
+                <i class="icon fa fa-solid fa-arrows-rotate"></i>
+              </div>
+            </div>
+            
+            <svg id="cloud" class="clouds cloud-1" viewBox="7 0 100 100" width="90vw" height="90vw">
+              <defs>
+                <mask id="cloud-mask-1" class="cloud-mask">
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <circle class="cloud-piece" fill="#FFFFFF" />
+                  <rect class="cloud-piece rect" fill="#FFFFFF" />
+                </mask>
+
+                <linearGradient id="cloud-gradient" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-opacity="0.95" />
+                  <stop offset="1" stop-opacity="0.5" />
+                </linearGradient>
+              </defs>
+
+              <rect 
+              fill="url(#cloud-gradient)" 
+              mask="url(#cloud-mask-1)" 
+              />
+            </svg>
+            <svg class="clouds cloud-2">
+              <use href="#cloud"/>
+            </svg>
+            <svg class="clouds cloud-3">
+              <use href="#cloud"/>
+            </svg>
+            <svg class="clouds cloud-4">
+              <use href="#cloud"/>
+            </svg>
+            <svg class="clouds cloud-5">
+              <use href="#cloud"/>
+            </svg>
+            <svg class="clouds cloud-6">
+              <use href="#cloud"/>
+            </svg>
+            <svg class="clouds cloud-7">
+              <use href="#cloud"/>
+            </svg>
+          </div> <!-- skybox -->
+
+        </div> <!-- conatiner -->
+      </div> <!-- parallax -->
+
+    </div> <!-- scene-manager -->
+  </body>
+</html>
