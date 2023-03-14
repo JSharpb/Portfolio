@@ -127,8 +127,10 @@ body {
 .parallax {
   position: relative;
   height: 100vh;
+  height: 100dvh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  /* -webkit-overflow-scrolling: touch; */
   perspective: calc(var(--perspective-int) * 1px);
   
   scroll-behavior: smooth;
