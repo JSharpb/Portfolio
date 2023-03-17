@@ -261,6 +261,7 @@ body {
 
 .theme-button.interactable {
   opacity: 0 !important;
+  cursor: pointer;
 }
 
 /* .theme-button:hover, */
